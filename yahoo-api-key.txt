@@ -1,0 +1,78 @@
+Key:
+2df474a7506edc160ed63f3acb5e7d85
+
+Secret:
+8031fedbfd04cbfd
+
+
+
+REST Request Format
+
+REST is the simplest request format to use - it's a simple HTTP GET or POST action.
+
+The REST Endpoint URL is https://api.flickr.com/services/rest/
+
+To request the flickr.test.echo service, invoke like this:
+
+	https://api.flickr.com/services/rest/?method=flickr.test.echo&name=value
+By default, REST requests will send a REST response.
+-------------
+flickr.photos.getRecent
+
+Returns a list of the latest public photos uploaded to flickr.
+Authentication
+
+This method does not require authentication.
+
+Arguments
+
+api_key (Required)
+Your API application key. See here for more details.
+extras (Optional)
+A comma-delimited list of extra information to fetch for each returned record. Currently supported fields are: description, license, date_upload, date_taken, owner_name, icon_server, original_format, last_update, geo, tags, machine_tags, o_dims, views, media, path_alias, url_sq, url_t, url_s, url_q, url_m, url_n, url_z, url_c, url_l, url_o
+per_page (Optional)
+Number of photos to return per page. If this argument is omitted, it defaults to 100. The maximum allowed value is 500.
+page (Optional)
+The page of results to return. If this argument is omitted, it defaults to 1.
+Example Response
+
+This method returns the standard photo list xml:
+
+<photos page="2" pages="89" perpage="10" total="881">
+	<photo id="2636" owner="47058503995@N01" 
+		secret="a123456" server="2" title="test_04"
+		ispublic="1" isfriend="0" isfamily="0" />
+	<photo id="2635" owner="47058503995@N01"
+		secret="b123456" server="2" title="test_03"
+		ispublic="0" isfriend="1" isfamily="1" />
+	<photo id="2633" owner="47058503995@N01"
+		secret="c123456" server="2" title="test_01"
+		ispublic="1" isfriend="0" isfamily="0" />
+	<photo id="2610" owner="12037949754@N01"
+		secret="d123456" server="2" title="00_tall"
+		ispublic="1" isfriend="0" isfamily="0" />
+</photos>
+To map <photo> elements to urls, please read the url documentation.
+
+Error Codes
+
+1: bad value for jump_to, must be valid photo id.
+100: Invalid API Key
+The API key passed was not valid or has expired.
+105: Service currently unavailable
+The requested service is temporarily unavailable.
+106: Write operation failed
+The requested operation failed due to a temporary issue.
+111: Format "xxx" not found
+The requested response format was not found.
+112: Method "xxx" not found
+The requested method was not found.
+114: Invalid SOAP envelope
+The SOAP envelope send in the request could not be parsed.
+115: Invalid XML-RPC Method Call
+The XML-RPC request document could not be parsed.
+116: Bad URL found
+One or more arguments contained a URL that has been used for abuse on Flickr.
+API Explorer
+
+API Explorer : flickr.photos.getRecent

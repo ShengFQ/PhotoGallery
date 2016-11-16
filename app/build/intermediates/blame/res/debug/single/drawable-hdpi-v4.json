@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/login_tip_logo.png",
+        "source": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/src/main/res/drawable-hdpi/login_tip_logo.png"
+    },
+    {
+        "merged": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/brian_up_close.jpg",
+        "source": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/src/main/res/drawable-hdpi/brian_up_close.jpg"
+    },
+    {
+        "merged": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/app_icon.png",
+        "source": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/src/main/res/drawable-hdpi/app_icon.png"
+    }
+]

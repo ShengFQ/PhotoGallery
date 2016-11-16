@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/build/intermediates/res/merged/debug/layout/fragment_photo_page.xml",
+        "source": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/src/main/res/layout/fragment_photo_page.xml"
+    },
+    {
+        "merged": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/build/intermediates/res/merged/debug/layout/fragment_photo_gallery.xml",
+        "source": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/src/main/res/layout/fragment_photo_gallery.xml"
+    },
+    {
+        "merged": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/build/intermediates/res/merged/debug/layout/activity_fragment.xml",
+        "source": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/src/main/res/layout/activity_fragment.xml"
+    },
+    {
+        "merged": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/build/intermediates/res/merged/debug/layout/searchable.xml",
+        "source": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/src/main/res/layout/searchable.xml"
+    },
+    {
+        "merged": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/build/intermediates/res/merged/debug/layout/gallery_item.xml",
+        "source": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/src/main/res/layout/gallery_item.xml"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/build/intermediates/res/merged/debug/menu/fragment_photo_gallery.xml",
+        "source": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/src/main/res/menu/fragment_photo_gallery.xml"
+    },
+    {
+        "merged": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/build/intermediates/res/merged/debug/menu/photo_gallery.xml",
+        "source": "/Users/sheng/workspace/androidstudio/PhotoGallery/app/src/main/res/menu/photo_gallery.xml"
+    }
+]
